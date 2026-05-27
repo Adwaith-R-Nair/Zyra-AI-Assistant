@@ -1,0 +1,49 @@
+# Virtual environment — never push this
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Environment variables — contains secrets
+.env
+
+# Piper model files — too large for GitHub (>100MB limit)
+models/*.onnx
+models/*.onnx.json
+
+# Memory databases — user data, never push
+memory/
+
+# Whisper model cache — downloaded automatically
+*.cache/
+
+# ChromaDB downloads
+.cache/
+
+# Windows specific
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+
+# Compiled files
+*.exe
+*.dll
+*.so
+
+# Distribution
+dist/
+build/
+*.egg-info/
