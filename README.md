@@ -1,4 +1,4 @@
-# ZYRA — Intelligent Voice Assistant
+# ZYRA : Intelligent Voice Assistant
 
 A Jarvis-class voice agent built on ESP32-S3 with a Python laptop server backend.
 
